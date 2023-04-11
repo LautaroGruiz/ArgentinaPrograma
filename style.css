@@ -60,8 +60,17 @@ main {
 .extra-info {
   color: gray;
 }
+
+.btn-gradiente {
+  background: linear-gradient(to right, #8C61D5, #19A8C8);
+  box-shadow: 0 4px 12px 2px #8b61d550;
+}
+
+.btn-gradiente:hover {
+  background: linear-gradient(to right, #9070c7, #47afc7);
+}
+
 .descargar-cv {
-  background-color: rgb(0, 47, 255);
   font-size: 1rem;
   border-radius: 30px;
   border: none;
@@ -70,7 +79,9 @@ main {
   width: 10rem;
   margin-top: 1rem;
   cursor: pointer;
+  font-weight: 900;
 }
+
 .projects {
   /* border: 1px solid white; */
   width: 60%;
@@ -133,7 +144,6 @@ main {
   gap: 1rem;
 }
 .live-previw {
-  background-color: rgb(0, 47, 255);
   font-size: 1rem;
   border-radius: 30px;
   border: none;
@@ -142,4 +152,9 @@ main {
   width: 50%;
   margin-top: 1rem;
   cursor: pointer;
+  font-weight: 900;
+}
+
+.btn-github {
+  border: 1px solid white;
 }
