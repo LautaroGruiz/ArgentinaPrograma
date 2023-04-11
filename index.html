@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <title>Grupo 3</title>
 </head>
 
 <body>
@@ -19,30 +19,80 @@
                 <p>I.M. portfolio</p>
             </div>
             <div class="secciones">
-                <p>Projects</p>
-                <p>Technologles</p>
-                <p>About me</p>
+                <a href="#projects">Proyectos</a>
+                <a href="#">Tecnologías</a>
+                <a href="#">Sobre nosotros</a>
             </div>
             <div class="redes">
-                <p>Redes</p>
+                <a href="#"><ion-icon class="icono-redes" name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon class="icono-redes" name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon class="icono-redes" name="logo-instagram"></ion-icon></a>
             </div>
         </nav>
     </header>
     <main>
         <section class="presentacion-personal">
+            <div class="circulo-grande">
+
+            </div>
             <div class="nombre-info">
-                <h2 class="hello">Hola, Somos el Grupo 3,</h2>
-                <p class="frontend">frontend developers</p>
-                <p class="extra-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur saepe quam,
-                    officiis laboriosam ea</p>
-                <button class="descargar-cv btn-gradiente">
-                    Donwload CV
+                <h2 class="hello">Hola, somos el Grupo 3</h2>
+                <p class="frontend">Frontend Developers</p>
+                <p class="extra-info">Creamos desde 0 tu emprendimiento en la web</p>
+                <button class="btn-contacto btn-gradiente">
+                    Contáctanos
                 </button>
             </div>
+            <div class="container-fotos">
+                <div class="circulo-foto">
+                    <img src="./image/perfil-lautaro.png" alt="foto perfil">
+                </div>
+            </div>
         </section>
-        <section class="projects">
-            <h3>Projects</h3>
+        <section class="projects" id="projects">
+            <h3>Proyectos</h3>
             <h4>Lautaro G. Ruiz</h4>
+            <div class="conteiner-card-proyectos">
+                <div class="card-proyecto">
+                    <div class="content-card-up">
+                        <div class="image-card">
+
+                        </div>
+                        <div class="info-card">
+                            <h4>Proyecto 1</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="content-card-down">
+                        <button class="live-previw btn-gradiente">
+                            Live Preview
+                        </button>
+                        <button class="live-previw btn-github">
+                            Check on GitHub
+                        </button>
+                    </div>
+                </div>
+                <div class="card-proyecto">
+                    <div class="content-card-up">
+                        <div class="image-card">
+
+                        </div>
+                        <div class="info-card">
+                            <h4>Proyecto 2</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="content-card-down">
+                        <button class="live-previw btn-gradiente">
+                            Live Preview
+                        </button>
+                        <button class="live-previw btn-github">
+                            Check on GitHub
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <h4>Matias Chanquia</h4>
             <div class="conteiner-card-proyectos">
                 <div class="card-proyecto">
                     <div class="content-card-up">
@@ -88,6 +138,9 @@
     <footer>
 
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
