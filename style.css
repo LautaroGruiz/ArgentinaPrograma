@@ -239,7 +239,7 @@ main {
 }
 
 /* MEDIA */
-@media (min-width: 320px) and (max-width: 552px) {
+@media (min-width: 320px) and (max-width: 374px) {
   nav {
     width: 100%;
     display: flex;
@@ -263,13 +263,13 @@ main {
     align-items: center;
     text-align: center;
   }
-  .hello{
+  .hello {
     font-size: 1.8rem;
   }
   .frontend {
     font-size: 1.5rem;
   }
-  .extra-info  {
+  .extra-info {
     font-size: 1rem;
   }
   .circulo-grande {
@@ -277,6 +277,146 @@ main {
     width: 250px;
     top: 13rem;
     right: 8rem;
+  }
+  .circulo-foto {
+    top: 15rem;
+    width: 180px;
+    height: 180px;
+    top: 0;
+    left: 5rem;
+  }
+  .projects {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .projects h3 {
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .projects h4 {
+    font-size: 1.2rem;
+    margin: 0%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .card-proyecto {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .secciones a {
+    font-size: 13.5px;
+  }
+  .presentacion-personal {
+    /* border: 1px solid darkgreen; */
+    width: 100%;
+    height: 30rem;
+    top: 3rem;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .nombre-info {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hello {
+    font-size: 1.8rem;
+  }
+  .frontend {
+    font-size: 1.5rem;
+  }
+  .extra-info {
+    font-size: 1rem;
+  }
+  .circulo-grande {
+    height: 250px;
+    width: 250px;
+    top: 13rem;
+    right: 9rem;
+  }
+  .circulo-foto {
+    top: 15rem;
+    width: 180px;
+    height: 180px;
+    top: 0;
+    left: 5rem;
+  }
+  .projects {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .projects h3 {
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .projects h4 {
+    font-size: 1.2rem;
+    margin: 0%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .card-proyecto {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .secciones {
+    width: 100%;
+    justify-content: center;
+  }
+  .secciones a {
+    font-size: 13.5px;
+  }
+  .presentacion-personal {
+    /* border: 1px solid darkgreen; */
+    width: 100%;
+    height: 30rem;
+    top: 3rem;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .nombre-info {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hello {
+    font-size: 1.8rem;
+  }
+  .frontend {
+    font-size: 1.5rem;
+  }
+  .extra-info {
+    font-size: 1rem;
+  }
+  .circulo-grande {
+    height: 250px;
+    width: 250px;
+    top: 13rem;
+    right: 14rem;
   }
   .circulo-foto {
     top: 15rem;
