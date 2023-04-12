@@ -519,3 +519,27 @@ main {
     margin-right: 5px;
   }
 }
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .im-portafolio {
+    font-size: 1.5rem;
+  }
+  .hello {
+    font-size: 2rem;
+  }
+  .frontend {
+    font-size: 1.8rem;
+  }
+  .extra-info {
+    font-size: 1.3rem;
+  }
+  .circulo-grande {
+    width: 350px;
+    height: 350px;
+    top: 3rem;
+  }
+  .circulo-foto {
+    width: 180px;
+    height: 180px;
+    left: 2rem;
+  }
+}
