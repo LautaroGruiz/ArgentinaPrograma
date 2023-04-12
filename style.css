@@ -12,9 +12,10 @@ html {
 
 header {
   width: 100%;
-  height: 5rem;
+  min-height: 5rem;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 nav {
   width: 60%;
@@ -25,9 +26,12 @@ nav {
   color: white;
   /* border: 1px solid white; */
 }
-.im-portafolio {
+
+.im-portafolio > h1 {
   font-size: 2rem;
+  font-weight: 500;
 }
+
 .secciones {
   display: flex;
 }
@@ -37,6 +41,8 @@ nav {
   text-decoration: none;
   border-bottom: 2px solid transparent;
   padding: 8px 0;
+  text-align: center;
+  display: inline-block;
 }
 
 .secciones a:hover {
@@ -55,7 +61,7 @@ nav {
 }
 
 .icono-redes:hover {
-  color: #8c61d5;
+  color: #4d4d4f;
 }
 
 main {
@@ -95,18 +101,21 @@ main {
   gap: 1rem;
 }
 .hello {
+  background-color: transparent;
   font-size: 2.5rem;
   color: rgb(0, 47, 255);
   position: relative;
   width: fit-content;
 }
 .frontend {
+  background-color: transparent;
   font-size: 3rem;
   color: white;
   position: relative;
   width: fit-content;
 }
 .extra-info {
+  background-color: transparent;
   color: gray;
   position: relative;
   width: fit-content;
@@ -122,6 +131,7 @@ main {
 }
 
 .btn-contacto {
+  background-color: transparent;
   font-size: 1rem;
   border-radius: 30px;
   border: none;
@@ -197,7 +207,6 @@ main {
   border: 1px solid darkred;
 } */
 .image-card {
-  border: 1px solid white;
   width: 100%;
   height: 10rem;
   margin-top: 1.5rem;
@@ -206,6 +215,7 @@ main {
 .image-card img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .info-card h4 {
   font-size: 1.5rem;
@@ -223,6 +233,11 @@ main {
   gap: 1rem;
 }
 .live-previw {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   border-radius: 30px;
   border: none;
