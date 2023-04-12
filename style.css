@@ -103,9 +103,15 @@ main {
 .hello {
   background-color: transparent;
   font-size: 2.5rem;
-  color: rgb(0, 47, 255);
   position: relative;
   width: fit-content;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: -moz-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: -o-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: linear-gradient(to right, #8c61d5, #19a8c8);
 }
 .frontend {
   background-color: transparent;
@@ -180,9 +186,15 @@ main {
   font-size: 3rem;
 }
 .projects > h4 {
-  color: rgb(0, 47, 255);
   margin: 2rem 0;
   font-size: 2rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: -moz-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: -o-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: linear-gradient(to right, #8c61d5, #19a8c8);
 }
 .conteiner-card-proyectos {
   /* border: 1px solid rgb(123, 255, 0); */
@@ -253,20 +265,51 @@ main {
   border: 1px solid white;
 }
 
-.technology {
+.technologies {
   /* border: 1px solid rgb(97, 106, 192); */
   width: 60%;
   height: 100%;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin: 20px auto;
+  margin: 5rem auto;
 }
 
-.technology > h3 {
+.technologies > h3 {
   color: white;
   font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
-
+.container-tecnos {
+  width: 100%;
+  /* border: 1px solid white; */
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.element-tecno {
+  width: 100%;
+  /* border: 1px solid rgb(177, 40, 40); */
+}
+.name-level {
+  width: 100%;
+  /* border: 1px solid deepskyblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.name-level > p {
+  font-size: 14px;
+}
+.barra {
+  height: 13px;
+  margin-right: 5rem;
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  background: linear-gradient(to right, #8c61d5, #19a8c8);
+}
+.barra-50 {
+  width: 60%;
+}
 /* MEDIA */
 @media (min-width: 320px) and (max-width: 374px) {
   nav {
