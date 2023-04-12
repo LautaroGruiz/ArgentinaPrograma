@@ -238,6 +238,20 @@ main {
   border: 1px solid white;
 }
 
+.technology {
+  /* border: 1px solid rgb(97, 106, 192); */
+  width: 60%;
+  height: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin: 20px auto;
+}
+
+.technology > h3 {
+  color: white;
+  font-size: 3rem;
+}
+
 /* MEDIA */
 @media (min-width: 320px) and (max-width: 374px) {
   nav {
