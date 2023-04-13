@@ -419,6 +419,30 @@ main {
     top: 0;
     left: 5rem;
   }
+  .info-nosotros {
+    width: 85%;
+    /* border: 1px solid wheat; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-nosotros > h3 {
+    font-size: 1.5rem;
+  }
+  .info-nosotros > P {
+    font-size: 1rem;
+  }
+  .container-datos {
+    /* border: 1px solid white; */
+    flex-direction: column;
+  }
+  .technologies {
+    width: 85%;
+  }
+  .technologies > h3 {
+    font-size: 1.5rem;
+  }
+  
   .projects {
     width: 85%;
     margin-top: 3rem;
@@ -489,6 +513,29 @@ main {
     height: 180px;
     top: 0;
     left: 5rem;
+  }
+  .info-nosotros {
+    width: 85%;
+    /* border: 1px solid wheat; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-nosotros > h3 {
+    font-size: 1.5rem;
+  }
+  .info-nosotros > P {
+    font-size: 1rem;
+  }
+  .container-datos {
+    /* border: 1px solid white; */
+    flex-direction: column;
+  }
+  .technologies {
+    width: 85%;
+  }
+  .technologies > h3 {
+    font-size: 1.5rem;
   }
   .projects {
     width: 80%;
@@ -565,6 +612,29 @@ main {
     top: 0;
     left: 5rem;
   }
+  .info-nosotros {
+    width: 85%;
+    /* border: 1px solid wheat; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-nosotros > h3 {
+    font-size: 1.5rem;
+  }
+  .info-nosotros > P {
+    font-size: 1rem;
+  }
+  .container-datos {
+    /* border: 1px solid white; */
+    flex-direction: column;
+  }
+  .technologies {
+    width: 85%;
+  }
+  .technologies > h3 {
+    font-size: 1.5rem;
+  }
   .projects {
     width: 80%;
     margin-top: 3rem;
@@ -639,6 +709,29 @@ main {
     height: 180px;
     top: 0;
     left: 19rem;
+  }
+  .info-nosotros {
+    width: 85%;
+    /* border: 1px solid wheat; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-nosotros > h3 {
+    font-size: 1.5rem;
+  }
+  .info-nosotros > P {
+    font-size: 1rem;
+  }
+  .container-datos {
+    /* border: 1px solid white; */
+    flex-direction: column;
+  }
+  .technologies {
+    width: 85%;
+  }
+  .technologies > h3 {
+    font-size: 1.5rem;
   }
   .projects {
     width: 60%;
