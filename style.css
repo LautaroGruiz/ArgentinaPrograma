@@ -12,10 +12,13 @@ html {
 
 header {
   width: 100%;
-  min-height: 5rem;
+  /* min-height: 5rem; */
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 nav {
   width: 60%;
@@ -27,9 +30,11 @@ nav {
   /* border: 1px solid white; */
 }
 
-.im-portafolio > h1 {
+.im-portafolio > a {
   font-size: 2rem;
   font-weight: 500;
+  color: white;
+  text-decoration: none;
 }
 
 .secciones {
@@ -310,8 +315,65 @@ main {
 .barra-50 {
   width: 60%;
 }
+
+.info-nosotros {
+  width: 60%;
+  /* border: 1px solid wheat; */
+  margin: 5rem auto;
+}
+.info-nosotros > h3 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.info-nosotros > P {
+  color: gray;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.container-datos {
+  /* border: 1px solid white; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.persona-cv {
+  margin-top: 0.5rem;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid darkred; */
+  gap: 0.5rem;
+}
+.persona-cv > h4 {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: -moz-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: -o-linear-gradient(left, #8c61d5, #19a8c8);
+  background-image: linear-gradient(to right, #8c61d5, #19a8c8);
+}
+.personal-redes {
+  display: flex;
+  gap: 1rem;
+}
+
+.personal-redes > a {
+  text-decoration: none;
+  color: white;
+}
+.personal-redes > a:hover {
+  text-decoration: underline;
+}
 /* MEDIA */
-@media (min-width: 320px) and (max-width: 374px) {
+@media (max-width: 374px) {
+  header {
+    position: static;
+  }
   nav {
     width: 100%;
     display: flex;
@@ -380,6 +442,9 @@ main {
   }
 }
 @media (min-width: 375px) and (max-width: 424px) {
+  header {
+    position: static;
+  }
   nav {
     width: 100%;
     display: flex;
@@ -448,6 +513,9 @@ main {
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
+  header {
+    position: static;
+  }
   nav {
     width: 100%;
     display: flex;
@@ -520,6 +588,9 @@ main {
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    position: static;
+  }
   nav {
     width: 100%;
     display: flex;
@@ -591,12 +662,12 @@ main {
     margin-right: 5px;
   }
 }
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px){
   .im-portafolio {
     font-size: 1.5rem;
   }
   .hello {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .frontend {
     font-size: 1.8rem;
