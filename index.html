@@ -45,9 +45,9 @@
                 <p class="extra-info">
                     Creamos desde 0 tu emprendimiento en la web
                 </p>
-                <button class="btn-contacto btn-gradiente">
+                <a href="#contact" class="btn-contacto btn-gradiente">
                     Contáctanos
-                </button>
+                </a>
             </div>
             <div class="container-fotos">
                 <div class="circulo-foto">
@@ -80,8 +80,8 @@
                 <div class="persona-cv">
                     <h4>Matias Chanquia</h4>
                     <div class="personal-redes">
-                        <a href="">Mi Linkedin</a>
-                        <a href="">Curriculum Vitae</a>
+                        <a href="https://www.linkedin.com/in/matias-chanquia/" target="_blank">Mi Linkedin</a>
+                        <a href="./cv/cv-matias-chanquia.pdf" target="_blank">Curriculum Vitae</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                             <img src="./image/proyecto-lautaro-1.png" alt="Proyecto Lautaro" />
                         </div>
                         <div class="info-card">
-                            <h4>Proyecto 1</h4>
+                            <h4>G7 Store</h4>
                             <p>
                                 Proyecto en basado en HTML, CSS y Bootstrap. E-commerce de celulares.
                             </p>
@@ -155,7 +155,7 @@
                             <img src="./image/proyecto-lautaro-2.png" alt="Proyecto Lautaro" />
                         </div>
                         <div class="info-card">
-                            <h4>Proyecto 2</h4>
+                            <h4>Don Rouch</h4>
                             <p>
                                 Proyecto en basado en HTML, CSS y Bootstrap. E-commerce de joyeria.
                             </p>
@@ -309,6 +309,34 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="contacto" id="contact">
+            <h3>Contacto</h3>
+            <form action="https://formspree.io/f/mqkogngb" method="POST" class="form">
+                <div class="container-nombre-apellido">
+                    <div>
+                        <label class="label" for="name">Nombre: <span class="required">*</span></label>
+                        <input class="input" type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div>
+                        <label class="label" for="surname">Apellido: <span class="required">*</span></label>
+                        <input class="input" type="text" id="surname" name="surname" placeholder="Ingrese su apellido" required>
+                    </div>
+                </div>
+                <div class="container-email-tel">
+                    <div>
+                        <label class="label" for="email">Email: <span class="required">*</span></label>
+                        <input class="input" type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                    </div>
+                    <div>
+                        <label class="label" for="telefono">Teléfono:</label>
+                        <input class="input" type="number" id="telefono" name="telefono" placeholder="(+54)">
+                    </div>
+                </div>
+                <label class="label" for="idea">Cuentanos tu idea:</label>
+                <textarea class="textarea" name="idea" id="idea" placeholder="Ingrese su idea de proyecto"></textarea>
+                <button class="btn-enviar btn-gradiente" type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer></footer>
