@@ -39,6 +39,7 @@ nav {
 
 .secciones {
   display: flex;
+  align-items: center;
 }
 .secciones a {
   margin: 1rem;
@@ -66,7 +67,7 @@ nav {
 }
 
 .icono-redes:hover {
-  color: #4d4d4f;
+  color: #8c61d5;
 }
 
 main {
@@ -182,9 +183,8 @@ main {
   /* border: 1px solid rgb(97, 106, 192); */
   width: 60%;
   height: 100%;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin: 20px auto;
+  padding-top: 83px;
+  margin: 0 auto 5rem;
 }
 .projects > h3 {
   color: white;
@@ -193,6 +193,7 @@ main {
 .projects > h4 {
   margin: 2rem 0;
   font-size: 2rem;
+  width: fit-content;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -274,7 +275,8 @@ main {
   /* border: 1px solid rgb(97, 106, 192); */
   width: 60%;
   height: 100%;
-  margin: 5rem auto;
+  padding-top: 83px;
+  margin: 0 auto 3rem;
 }
 
 .technologies > h3 {
@@ -305,21 +307,29 @@ main {
 .name-level > p {
   font-size: 14px;
 }
+
+.container-barra {
+  margin-right: 80px;
+}
+
 .barra {
   height: 13px;
   margin-right: 5rem;
   margin-top: 0.5rem;
   border-radius: 20px;
   background: linear-gradient(to right, #8c61d5, #19a8c8);
+  width: 100%;
+  box-shadow: 0 1px 6px 0 #19a8c886;
 }
-.barra-50 {
+.barra-60 {
   width: 60%;
 }
 
 .info-nosotros {
   width: 60%;
   /* border: 1px solid wheat; */
-  margin: 5rem auto;
+  padding-top: 83px;
+  margin: 0 auto 3rem;
 }
 .info-nosotros > h3 {
   color: white;
