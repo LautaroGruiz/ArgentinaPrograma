@@ -1,10 +1,11 @@
-* {
+*{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   font-family: "Questrial", sans-serif;
   background-color: #0f1724;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -885,4 +886,24 @@ footer {
     height: 180px;
     left: 2rem;
   }
+}
+
+.pointa:hover{
+  cursor: pointer;
+}
+
+.swal-title{
+  background-color: white;
+}
+
+.swal-footer{
+  background-color: white;
+}
+
+.swal-text{
+  background-color: white;
+}
+
+.swal-button-container{
+  background-color: white;
 }

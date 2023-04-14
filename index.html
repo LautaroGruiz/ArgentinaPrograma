@@ -51,7 +51,7 @@
             </div>
             <div class="container-fotos">
                 <div class="circulo-foto">
-                    <img src="./image/perfil-lautaro.png" alt="foto perfil" />
+                    <img id="imgprofile" src="./image/perfil-lautaro.png" alt="foto perfil" />
                 </div>
             </div>
         </section>
@@ -82,6 +82,20 @@
                     <div class="personal-redes">
                         <a href="https://www.linkedin.com/in/matias-chanquia/" target="_blank">Mi Linkedin</a>
                         <a href="./cv/cv-matias-chanquia.pdf" target="_blank">Curriculum Vitae</a>
+                    </div>
+                </div>
+                <div class="persona-cv">
+                    <h4>Lucas Ponce</h4>
+                    <div class="personal-redes">
+                        <a href=# target="_blank">Mi Linkedin</a>
+                        <a href=# target="_blank">Curriculum Vitae</a>
+                    </div>
+                </div>
+                <div class="persona-cv">
+                    <h4>Lucas Monzón</h4>
+                    <div class="personal-redes">
+                        <a href="https://www.linkedin.com/in/lmonzon/" target="_blank">Mi Linkedin</a>
+                        <a class="pointa" onclick=notification()>Curriculum Vitae</a>
                     </div>
                 </div>
             </div>
@@ -223,7 +237,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <h4>Lucas Ponce</h4>
+           <h4>Lucas Ponce</h4>
             <div class="conteiner-card-proyectos">
                 <div class="card-proyecto">
                     <div class="content-card-up">
@@ -270,20 +284,21 @@
             <div class="conteiner-card-proyectos">
                 <div class="card-proyecto">
                     <div class="content-card-up">
-                        <div class="image-card"></div>
+                        <div class="image-card">
+                            <img src="./image/proyecto-lucasm-1.png" alt="Proyecto LucasM" />
+                        </div>
                         <div class="info-card">
-                            <h4>Proyecto 1</h4>
+                            <h4>Equipo de heroes</h4>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit.
+                                Pagina creada con varios datos de superheroes donde podes crear tu propio equipo y visualizar los datos de tus heroes favoritos.
                             </p>
                         </div>
                     </div>
                     <div class="content-card-down">
-                        <a href="#" class="live-previw btn-gradiente">
+                        <a href="https://hero-team-by-lucas-monzon.netlify.app/" target="_blank" class="live-previw btn-gradiente">
                             Live Preview
                         </a>
-                        <a href="#" class="live-previw btn-github">
+                        <a href="https://github.com/ElGuerreroDragon/ProyectoFinal---Lucas-Monzon" target="_blank" class="live-previw btn-github">
                             Check on GitHub
                         </a>
                     </div>
@@ -307,7 +322,7 @@
                             Check on GitHub
                         </a>
                     </div>
-                </div> -->
+                </div> 
             </div>
         </section>
         <section class="contacto" id="contact">
@@ -364,6 +379,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>
