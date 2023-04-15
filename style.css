@@ -168,7 +168,6 @@ main {
 
 .circulo-foto {
   border-radius: 50%;
-  background-color: red;
   height: 200px;
   width: 200px;
   margin-left: auto;
@@ -176,12 +175,16 @@ main {
   overflow: hidden;
   border: 2px solid #47afc7;
   position: relative;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .circulo-foto > img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  opacity: 1;
+  transition: opacity 1s linear;
 }
 
 .projects {
@@ -577,6 +580,21 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
   }
+  .contacto {
+    width: 85%;
+  }
+  .contacto > h3 {
+    font-size: 1.5rem;
+  }
+  .container-nombre-apellido,
+  .container-email-tel {
+    flex-direction: column;
+    gap: 0;
+  }
+  .container-nombre-apellido > div,
+  .container-email-tel > div {
+    width: 100%;
+  }
 }
 @media (min-width: 375px) and (max-width: 424px) {
   header {
@@ -673,6 +691,21 @@ footer {
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
+  }
+  .contacto {
+    width: 85%;
+  }
+  .contacto > h3 {
+    font-size: 1.5rem;
+  }
+  .container-nombre-apellido,
+  .container-email-tel {
+    flex-direction: column;
+    gap: 0;
+  }
+  .container-nombre-apellido > div,
+  .container-email-tel > div {
+    width: 100%;
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
@@ -775,6 +808,21 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
   }
+  .contacto {
+    width: 85%;
+  }
+  .contacto > h3 {
+    font-size: 1.5rem;
+  }
+  .container-nombre-apellido,
+  .container-email-tel {
+    flex-direction: column;
+    gap: 0;
+  }
+  .container-nombre-apellido > div,
+  .container-email-tel > div {
+    width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   header {
@@ -876,6 +924,21 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
   }
+  .contacto {
+    width: 85%;
+  }
+  .contacto > h3 {
+    font-size: 1.5rem;
+  }
+  .container-nombre-apellido,
+  .container-email-tel {
+    flex-direction: column;
+    gap: 0;
+  }
+  .container-nombre-apellido > div,
+  .container-email-tel > div {
+    width: 100%;
+  }
 }
 @media (min-width: 1024px) {
   .im-portafolio {
@@ -920,4 +983,50 @@ footer {
 
 .swal-button-container{
   background-color: white;
+}
+
+/* MODAL PERFIL */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000004f;
+  display: none;
+}
+
+.content-modal {
+  margin: auto;
+  position: relative;
+  max-width: 600px;
+}
+
+.btn-cerrar-modal {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 20px;
+  font-size: 40px;
+  background-color: transparent;
+}
+
+.content-modal > img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-modal > p {
+  background-color: transparent;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px 0px #000;
+  text-align: center;
+  width: 100vw;
 }
