@@ -351,11 +351,12 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .persona-cv {
   margin-top: 0.5rem;
   height: 4rem;
-  width: 100%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -380,6 +381,7 @@ main {
 .personal-redes > a {
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 .personal-redes > a:hover {
   text-decoration: underline;
@@ -544,6 +546,9 @@ footer {
     /* border: 1px solid white; */
     flex-direction: column;
   }
+  .persona-cv {
+    width: 100%;
+  }
   .technologies {
     width: 85%;
   }
@@ -638,6 +643,9 @@ footer {
   .container-datos {
     /* border: 1px solid white; */
     flex-direction: column;
+  }
+  .persona-cv {
+    width: 100%;
   }
   .technologies {
     width: 85%;
@@ -737,6 +745,9 @@ footer {
     /* border: 1px solid white; */
     flex-direction: column;
   }
+  .persona-cv {
+    width: 100%;
+  }
   .technologies {
     width: 85%;
   }
@@ -834,6 +845,9 @@ footer {
   .container-datos {
     /* border: 1px solid white; */
     flex-direction: column;
+  }
+  .persona-cv {
+    width: 100%;
   }
   .technologies {
     width: 85%;
