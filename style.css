@@ -595,6 +595,20 @@ footer {
   .container-email-tel > div {
     width: 100%;
   }
+  footer {
+    width: 85%;
+    /* margin: 0 auto 1rem; */
+    text-align: center;
+  }
+  .behance > a {
+    font-size: 12px;
+  }
+  .derechos > p {
+    font-size: 12px;
+  }
+  .icono-redes{
+    font-size: 15px;
+  }
 }
 @media (min-width: 375px) and (max-width: 424px) {
   header {
@@ -706,6 +720,20 @@ footer {
   .container-nombre-apellido > div,
   .container-email-tel > div {
     width: 100%;
+  }
+  footer {
+    width: 85%;
+    /* margin: 0 auto 1rem; */
+    text-align: center;
+  }
+  .behance > a {
+    font-size: 12px;
+  }
+  .derechos > p {
+    font-size: 14px;
+  }
+  .icono-redes{
+    font-size: 15px;
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
@@ -823,6 +851,20 @@ footer {
   .container-email-tel > div {
     width: 100%;
   }
+  footer {
+    width: 85%;
+    /* margin: 0 auto 1rem; */
+    text-align: center;
+  }
+  .behance > a {
+    font-size: 12px;
+  }
+  .derechos > p {
+    font-size: 12px;
+  }
+  .icono-redes{
+    font-size: 15px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   header {
@@ -938,6 +980,20 @@ footer {
   .container-nombre-apellido > div,
   .container-email-tel > div {
     width: 100%;
+  }
+  footer {
+    width: 85%;
+    /* margin: 0 auto 1rem; */
+    text-align: center;
+  }
+  .behance > a {
+    font-size: 1rem;
+  }
+  .derechos > p {
+    font-size: 1rem;
+  }
+  .icono-redes{
+    font-size: 20px;
   }
 }
 @media (min-width: 1024px) {
